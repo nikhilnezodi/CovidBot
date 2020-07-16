@@ -1,0 +1,16 @@
+To Run the chatbot follow these steps :
+1. Install Tensorflow, Keras , Pickle-mixin through anaconda navigator or anaconda prompt.
+2.  (a) Now open a Jupyter notebook file and type the following:
+         import nltk
+         nltk.download('punkt')
+         nltk.download()
+    (b) Now a window will open. Go to "All Packages" and click on download. close the window once donloads complete.
+    (c)now in the next line type :
+         import tensorflow as tf
+         tf.compat.v1.global_variables(scope=None)
+         
+3. Open anaconda prompt, set the directory to the path where the files are stored.
+4. Run the following commands:
+   python train_chatbot.py
+   python chatgui.py
+     
