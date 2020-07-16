@@ -1,0 +1,69 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Incorrect/Invalid input"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","Help"],
+         "responses": ["I can help you with the following: \n1.  What is Coronavirus? \n2. What are the symptoms? \n3. How do you protect yourself?\n4. Myth busters \n5. Travel Advisory \n6. Count of cases \n7. information on Hospitals & Testing centres \n8.Helpline Details"],
+         "context": [""]
+        },
+        {"tag": "coronavirus",
+         "patterns": ["What is Coronavirus?", "Corona", "coronavirus", "tell me about corona" ,"what is covid 19" , "covid 19"],
+         "responses": ["Coronaviruses are a large family of viruses found in both animals and humans. A novel coronavirus (nCoV) is a new strain of coronavirus that has not been previously identified in humans. The new, or “novel” coronavirus, now called 2019-nCoV, was detected after the first reported case in Wuhan, China in December 2019. \n You can watch this video to know more \n http://bit.ly/2uxLw3M"],
+         "context": [""]
+        },
+        {"tag": "symptoms",
+         "patterns": ["What are the symptoms", "Symptoms", "Coronavirus Symptoms" , "what are the symptoms for corona " , "what are the symptoms for covid 19 " , "what are the symptoms for covid "],
+         "responses": ["COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization. \n Most common symptoms: \n fever \n dry cough \n tiredness \n \n Less common symptoms: \n aches and pains \n  sore throat \n diarrhoea \n conjunctivitis \n headache \n loss of taste or smell \n a rash on skin, or discolouration of fingers or toes \n \n Serious symptoms: \n difficulty breathing or shortness of breath \n chest pain or pressure \n loss of speech or movement \n Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility. \n People with mild symptoms who are otherwise healthy should manage their symptoms at home. \n On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days."],
+         "context": [""]
+        },
+        {"tag": "protection",
+         "patterns": ["How do you protect yourself", "Protection", "Tell me how to protect myself ", "How to be safe ", "What precautions to take" ],
+         "responses": ["Here are few tips to keep yourself safe from Coronavirus : \n 1. *Wash hands frequently*\n 2. *Practice hygiene*\n 3. *Keep safe distance*\n 4. *Avoid touching eyes,nose & mouth*\n 5. *Seek medical care for symptoms*\n 6. *General hygiene measures*\n 7. *Avoid raw or under-cooked animal products*\n 8. *Wear Masks Outside.*\n 9. *Follow Government guidelines strictly*\n Check out : https://covidindia.org/covid-19-prevention/\n Check the video : https://youtu.be/bPITHEiFWLc "],
+         "context": [""]
+        },
+        {"tag": "mythbuster",
+         "patterns": ["What are the myths", "Mythbusters" , "What rumours to avoid" , "What are the rumours?"],
+         "responses": ["Go to the following link : \n https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"],
+         "context": [""]
+        },
+        {"tag": "travel_advisory",
+         "patterns": ["Travel Advisory ", "what is the Travel Advisory ", "Travel"],
+         "responses": ["The various state government has issued guidelines regarding the entry of people from other states to their state. \n https://covidindia.org/travel-guidelines-for-entry-of-people-by-states/"],
+         "context": [""]
+        },
+        {"tag": "case count",
+         "patterns": ["How many cases on covid", "How many cases of corona virus", "Count of cases", "statistics", "How many covid19 cases"],
+         "responses": ["Total Count of cases \n Global : \n  https://infographics.channelnewsasia.com/covid-19/map.html \n India : \n https://covidindia.org/"],
+         "context": [""]
+        },
+        {"tag": "hospital_information",
+         "patterns": ["Information of testing centres", "Covid hospitals", "Corona Hospitals", "Corona Testing centre", "information on Hospitals & Testing centres" , " where are the hospitals"],
+         "responses": ["To check the testing centres location, please view the PDF file : \n https://www.icmr.gov.in/pdf/covid/labs/COVID_Testing_Labs_15072020.pdf"],
+         "context": [""]
+        },
+        {"tag": "Helpline",
+         "patterns": ["Helpline Number", "email", "give me the helpline number", "what is the emergency number", "Emergency email" , " What are the contact details", "Helpline details" ,"Contact details"],
+         "responses": ["24/7 Helpline Number:\n +911123978046 \n Helpline Email Id: \n ncov2019@gmail.com"],
+         "context": [""]
+        }
+   ]
+}
+
